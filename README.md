@@ -2,6 +2,10 @@
   <img src="menhir-icon.png" width="150" alt="Menhir icon"/>
   <h1>Menhir</h1>
   <p>ASTERIX encode/decode workbench for Air Traffic Management engineers</p>
+
+  [![Linux Build](https://github.com/nathan-casabieille/Menhir/actions/workflows/ci-linux.yml/badge.svg)](https://github.com/nathan-casabieille/Menhir/actions/workflows/ci-linux.yml)
+  [![macOS Build](https://github.com/nathan-casabieille/Menhir/actions/workflows/ci-macos.yml/badge.svg)](https://github.com/nathan-casabieille/Menhir/actions/workflows/ci-macos.yml)
+  [![Windows Build](https://github.com/nathan-casabieille/Menhir/actions/workflows/ci-windows.yml/badge.svg)](https://github.com/nathan-casabieille/Menhir/actions/workflows/ci-windows.yml)
 </div>
 
 ---
