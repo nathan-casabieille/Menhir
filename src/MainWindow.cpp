@@ -83,7 +83,9 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent) {
         QMessageBox::about(this, "Menhir",
             "<b>Menhir 1.0</b><br>"
             "ASTERIX protocol encode/decode tool.<br>"
-            "Supports CAT001, CAT002, CAT034, CAT048, CAT062.");
+            "Supports CAT001, CAT002, CAT004, CAT007, CAT008, CAT009, CAT010, CAT011, "
+            "CAT015, CAT016, CAT017, CAT018, CAT019, CAT020, CAT021, CAT023, CAT025, "
+            "CAT032, CAT034, CAT048, CAT062, CAT063, CAT065, CAT150, CAT205, CAT240, CAT247.");
     });
     help->addAction(about);
 
@@ -182,8 +184,15 @@ void MainWindow::setMode(int idx) {
 
 void MainWindow::loadSpecs() {
     static const char* specs[] = {
-        ":/specs/CAT01.xml", ":/specs/CAT02.xml", ":/specs/CAT34.xml",
-        ":/specs/CAT48.xml", ":/specs/CAT62.xml",
+        ":/specs/CAT01.xml",  ":/specs/CAT02.xml",  ":/specs/CAT04.xml",
+        ":/specs/CAT07.xml",  ":/specs/CAT08.xml",  ":/specs/CAT09.xml",
+        ":/specs/CAT10.xml",  ":/specs/CAT11.xml",  ":/specs/CAT15.xml",
+        ":/specs/CAT16.xml",  ":/specs/CAT17.xml",  ":/specs/CAT18.xml",
+        ":/specs/CAT19.xml",  ":/specs/CAT20.xml",  ":/specs/CAT21.xml",
+        ":/specs/CAT23.xml",  ":/specs/CAT25.xml",  ":/specs/CAT32.xml",
+        ":/specs/CAT34.xml",  ":/specs/CAT48.xml",  ":/specs/CAT62.xml",
+        ":/specs/CAT63.xml",  ":/specs/CAT65.xml",  ":/specs/CAT150.xml",
+        ":/specs/CAT205.xml", ":/specs/CAT240.xml", ":/specs/CAT247.xml",
     };
     for (const char* s : specs) {
         try {

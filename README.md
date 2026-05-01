@@ -43,9 +43,31 @@ Menhir is a desktop application built on top of [ASTERIXCodec](https://github.co
 |----------|-------------|---------|
 | CAT001 | Transmission of Monoradar Data Target Reports | 1.4 |
 | CAT002 | Transmission of Monoradar Service Messages | 1.2 |
+| CAT004 | Safety Net Messages | 1.13 |
+| CAT007 | Transmission of Directed Interrogation Messages | 1.12 |
+| CAT008 | Monoradar Derived Weather Information | 1.3 |
+| CAT009 | Composite Weather Reports | 2.1 |
+| CAT010 | Transmission of Monosensor Surface Movement Data | 1.1 |
+| CAT011 | Transmission of A-SMGCS Data | 1.3 |
+| CAT015 | Independent Non-Cooperative Surveillance System Target Reports | 1.2 |
+| CAT016 | Transmission of Data Link Flight Messages | 1.0 |
+| CAT017 | Mode S Surveillance Coordination Function Messages | 1.3 |
+| CAT018 | Mode S Datalink Function Messages | 1.8 |
+| CAT019 | Multilateration System Status Messages | 1.3 |
+| CAT020 | Multilateration Target Reports | 1.11 |
+| CAT021 | ADS-B Target Reports | 2.7 |
+| CAT023 | CNS/ATM Ground Station and Service Status Reports | 1.3 |
+| CAT025 | CNS/ATM Ground System Status Reports | 1.6 |
+| CAT032 | Miniplan Reports to an SDPS | 1.2 |
 | CAT034 | Transmission of Monoradar Service Messages | 1.29 |
 | CAT048 | Monoradar Target Reports | 1.32 |
 | CAT062 | SDPS Track Messages | 1.21 |
+| CAT063 | Sensor Status Reports | 1.7 |
+| CAT065 | SDPS Service Status Reports | 1.6 |
+| CAT150 | MADAP Plan Server - Flight Data Message | 3.0 |
+| CAT205 | Radio Direction Finder Reports | 1.0 |
+| CAT240 | Radar Video Transmission | 1.3 |
+| CAT247 | Version Number Exchange | 1.3 |
 
 ## Requirements
 
@@ -95,7 +117,7 @@ Menhir/
 │   ├── ByteTracker.{hpp,cpp}       # Maps decoded items to byte ranges in the raw buffer
 │   └── Theme.hpp                   # Qt stylesheet, item colors
 ├── specs/
-│   └── CAT0{1,2,34,48,62}.xml     # ASTERIX category definitions (CAT001 CAT002 CAT034 CAT048 CAT062)
+│   └── CAT*.xml                    # 27 ASTERIX category definitions (CAT001–CAT247)
 └── resources/
     ├── specs.qrc                   # Embeds XML specs and icons at compile time
     ├── check.svg                   # Checkbox checkmark icon
