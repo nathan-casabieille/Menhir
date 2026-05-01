@@ -31,7 +31,7 @@ Menhir is a desktop application built on top of [ASTERIXCodec](https://github.co
 
 **Decode mode** — annotated field tree synchronized with the hex editor
 
-![Decode mode](.github/images/decode.png)
+![Decode mode](.github/images/decode.png?v=2)
 
 **Encode mode** — structured form with live hex output
 
