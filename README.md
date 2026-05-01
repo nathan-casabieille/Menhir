@@ -27,7 +27,7 @@ Menhir is a desktop application built on top of [ASTERIXCodec](https://github.co
 - `Backspace` undoes the last nibble or deletes the previous byte; `Delete` removes the byte at the cursor
 - Color-coded byte ranges for at-a-glance attribution
 
-## Screenshots
+## In action
 
 **Decode mode** — annotated field tree synchronized with the hex editor
 
