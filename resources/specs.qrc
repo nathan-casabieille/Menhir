@@ -1,0 +1,14 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/specs">
+        <file alias="CAT01.xml">../specs/CAT01.xml</file>
+        <file alias="CAT02.xml">../specs/CAT02.xml</file>
+        <file alias="CAT34.xml">../specs/CAT34.xml</file>
+        <file alias="CAT48.xml">../specs/CAT48.xml</file>
+        <file alias="CAT62.xml">../specs/CAT62.xml</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file alias="check.svg">check.svg</file>
+        <file alias="menhir.png">../menhir-icon.png</file>
+    </qresource>
+</RCC>
