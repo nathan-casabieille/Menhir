@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="menhir-icon.png" width="120" alt="Menhir icon"/>
+  <img src="menhir-icon.png" width="150" alt="Menhir icon"/>
   <h1>Menhir</h1>
   <p>ASTERIX encode/decode workbench for Air Traffic Management engineers</p>
 </div>
@@ -26,6 +26,16 @@ Menhir is a desktop application built on top of [ASTERIXCodec](https://github.co
 - Navigate with arrow keys, `Home`, `End`, `Page Up/Down`
 - `Backspace` undoes the last nibble or deletes the previous byte; `Delete` removes the byte at the cursor
 - Color-coded byte ranges for at-a-glance attribution
+
+## Screenshots
+
+**Decode mode** — annotated field tree synchronized with the hex editor
+
+![Decode mode](.github/images/decode.png)
+
+**Encode mode** — structured form with live hex output
+
+![Encode mode](.github/images/encode.png)
 
 ## Supported categories
 
